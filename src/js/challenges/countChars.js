@@ -1,6 +1,6 @@
 (function () {
   
-  window.countChars = {
+  window.countCharsChallenge = {
     title: "Count Chars",
     description: `
       Write a function called <code>countChars</code> that count the letters of a string.
