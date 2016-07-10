@@ -1,0 +1,12 @@
+{
+  "name": "treexor-code-challenge-tlp2k16",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "deploy": "git add . && git commit -m update && git push origin master && git checkout gh-pages && git merge master && git push origin gh-pages && git checkout master"
+  },
+  "dependencies": {
+    "cleaver": "^0.7.3",
+    "watch-cli": "^0.2.1"
+  }
+}
