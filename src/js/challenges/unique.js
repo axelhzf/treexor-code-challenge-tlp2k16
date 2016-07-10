@@ -1,5 +1,20 @@
 (function () {
   
+/*
+  
+function unique (array) {
+  var existing = {}
+  var result = [];
+  for(var element of array) {
+    if (!existing[element]) result.push(element)
+    existing[element] = true;
+  }
+  return result;
+}
+  
+*/
+  
+  
   window.uniqueChallenge = {
     title: "Unique",
     description: `

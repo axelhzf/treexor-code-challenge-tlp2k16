@@ -1,5 +1,11 @@
 (function () {
   
+/*
+function countChars (str) {
+  return str.replace(/\s*!/g, "").length
+}
+*/
+  
   window.countCharsChallenge = {
     title: "Count Chars",
     description: `

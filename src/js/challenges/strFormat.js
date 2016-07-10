@@ -1,8 +1,6 @@
 (function () {
   
   /**
-Solution
-   
 function strFormat (...args) {
   args = args.map(arg => `"${arg}"`)
     
