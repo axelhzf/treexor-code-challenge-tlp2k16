@@ -9,7 +9,11 @@
    
 }`,
     output: {
-      description: `Program should return "Hello World"`,
+      description: `
+        expect(min([1, 2, 3])).to.equal(1);<br/>
+        expect(min([1, 2, -3])).to.equal(1);<br/>
+        expect(min([])).to.equal(undefined);<br/>
+      `,
       verify: function (...tests) {
         return _.every(tests, test => test.actual === test.expected);
       },
@@ -17,6 +21,7 @@
       __verify__(
         {actual: min([1, 2, 3]), expected: 1},
         {actual: min([1, 2, -3]), expected: -3}
+        {actual: min([]), expected: undefined}
       )  
       `
     }
